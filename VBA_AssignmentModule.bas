@@ -51,6 +51,9 @@ Sub CalculateQuarterlyChangeAndPercentageAllSheets()
             End If
         Next i
      Next wsName
+     Call GreatestIncreaseAndDecrease
+     Call HighlightQuarterlyChange
+     Call HighlightPercentageChange
 End Sub
 Sub GreatestIncreaseAndDecrease()
 
