@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module2"
 Sub CalculateQuarterlyChangeAndPercentageAllSheets()
     Dim ws As Worksheet
     Dim wsNames As Variant
